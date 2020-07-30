@@ -13,7 +13,7 @@ namespace WingtipToys.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202007290803513_InitialCreate1"; }
+            get { return "202007301837459_InitialCreate1"; }
         }
         
         string IMigrationMetadata.Source

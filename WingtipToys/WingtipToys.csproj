@@ -399,9 +399,9 @@
     <Compile Include="Migrations\201312232357027_InitialCreate.Designer.cs">
       <DependentUpon>201312232357027_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202007290803513_InitialCreate1.cs" />
-    <Compile Include="Migrations\202007290803513_InitialCreate1.Designer.cs">
-      <DependentUpon>202007290803513_InitialCreate1.cs</DependentUpon>
+    <Compile Include="Migrations\202007301837459_InitialCreate1.cs" />
+    <Compile Include="Migrations\202007301837459_InitialCreate1.Designer.cs">
+      <DependentUpon>202007301837459_InitialCreate1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CartItem.cs" />
@@ -464,8 +464,8 @@
     <EmbeddedResource Include="Migrations\201312232357027_InitialCreate.resx">
       <DependentUpon>201312232357027_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202007290803513_InitialCreate1.resx">
-      <DependentUpon>202007290803513_InitialCreate1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202007301837459_InitialCreate1.resx">
+      <DependentUpon>202007301837459_InitialCreate1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

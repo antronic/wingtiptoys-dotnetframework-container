@@ -5,15 +5,14 @@ namespace WingtipToys.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<WingtipToys.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<WingtipToys.Models.ProductContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "WingtipToys.Models.ApplicationDbContext";
         }
 
-        protected override void Seed(WingtipToys.Models.ApplicationDbContext context)
+        protected override void Seed(WingtipToys.Models.ProductContext context)
         {
             //  This method will be called after migrating to the latest version.
 
